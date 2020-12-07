@@ -23,8 +23,8 @@ input[type=text]{
 input[type=num]{
     width: 20%;
     padding: 12px 20px;
-    margin: 8px 0;
     margin-right: 39px;
+    margin: 8px 0;
     outline: none;
     box-sizing:border-box;
     border: none;
