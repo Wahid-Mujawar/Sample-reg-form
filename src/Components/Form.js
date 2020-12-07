@@ -71,11 +71,11 @@ class Form extends Component {
 
                 <form onSubmit={this.handleSubmit}>
                 <h1>User Registration</h1>
-                <label>First Name: </label><input type="text" value={this.state.firstname} onChange={this.firsthandler} placeholder="First Name"></input>
+                <label>First Name:   </label><input type="text" value={this.state.firstname} onChange={this.firsthandler} placeholder="First Name"></input>
                 <br/>
-                <label>Last Name: </label><input type="text" value={this.state.lastname} onChange={this.lastthandler} placeholder="Last Name"></input>
+                <label>Last Name:  </label><input type="text" value={this.state.lastname} onChange={this.lastthandler} placeholder="Last Name"></input>
                 <br/>
-                <label>Last Name: </label><input type="num" value={this.state.age} onChange={this.agehandler} placeholder="Age"></input>
+                <label>Age:  </label><input type="num" value={this.state.age} onChange={this.agehandler} placeholder="Age"></input>
                 <br/>
                 <label>Password: </label><input type="password" value={this.state.password} onChange={this.passwordhandler} placeholder="Password"></input>
                 <br/>

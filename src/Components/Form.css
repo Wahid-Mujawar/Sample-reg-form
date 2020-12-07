@@ -21,9 +21,10 @@ input[type=text]{
 }
 
 input[type=num]{
-    width: 25%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0;
+    margin-right: 39px;
     outline: none;
     box-sizing:border-box;
     border: none;
@@ -35,11 +36,12 @@ input[type=num]{
 }
 
 input[type=password]{
-    width: 25%;
+    width: 20%;
     padding: 12px 20px;
     margin: 8px 0px;
     box-sizing:border-box;
     border: none;
+    margin-right: 75px;
     outline: none;
     border-radius: 15px;
     background-color: beige;
