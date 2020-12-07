@@ -44,8 +44,8 @@ class Form extends Component {
         })
     }
 
-    handleSubmit = event => {
-        alert('${firstname} $ {lastname} Registered Successfully')
+    handleSubmit = (event) => {
+        alert(`${this.state.firstname} ${this.state.lastname} Registered Successfully`)
         console.log(this.state);
         this.setState ({
             firstname:"",
