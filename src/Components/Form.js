@@ -30,12 +30,19 @@ class Form extends Component {
         })
     }
 
+    agehandler = (event) => {
+        this.setState({
+            age: event.target.value
+
+        })
+    }
+
     passwordhandler = (event) => {
         this.setState({
             password: event.target.value
 
         })
-    };
+    }
 
     genderthandler = (event) => {
         this.setState({
@@ -45,11 +52,12 @@ class Form extends Component {
     }
 
     handleSubmit = (event) => {
-        alert(`${this.state.firstname} ${this.state.lastname} Registered Successfully`)
+        alert(`${this.state.firstname} ${this.state.lastname} ${this.state.age} Registered Successfully`)
         console.log(this.state);
         this.setState ({
             firstname:"",
             lastname:"",
+            age:"",
             password:"",
             gender:"",
         })
@@ -66,6 +74,8 @@ class Form extends Component {
                 <label>First Name: </label><input type="text" value={this.state.firstname} onChange={this.firsthandler} placeholder="First Name"></input>
                 <br/>
                 <label>Last Name: </label><input type="text" value={this.state.lastname} onChange={this.lastthandler} placeholder="Last Name"></input>
+                <br/>
+                <label>Last Name: </label><input type="num" value={this.state.age} onChange={this.agehandler} placeholder="Age"></input>
                 <br/>
                 <label>Password: </label><input type="password" value={this.state.password} onChange={this.passwordhandler} placeholder="Password"></input>
                 <br/>
