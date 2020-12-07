@@ -1,14 +1,14 @@
 body{
-    background-color:rgb(216, 196, 196);
+    background-color:rgb(153, 161, 36);
 }
 
 h1{
-    font-size: 35px;
+    font-size: 38px;
 }
 
 input[type=text]{
     width: 30%;
-    padding: 15px 20px;
+    padding: 12px 20px;
     margin: 8px 0;
     box-sizing:border-box;
     border: none;
@@ -21,8 +21,8 @@ input[type=text]{
 
 input[type=password]{
     width: 30%;
-    padding: 15px 20px;
-    margin: 8px 0;
+    padding: 12px 20px;
+    margin: 6px 0px;
     box-sizing:border-box;
     border: none;
     border-radius: 15px;
@@ -35,9 +35,11 @@ input[type=password]{
 input[type=submit]{
     background-color: beige;
     display: inline-block;
-    padding: 15px 20px;
-    margin: 5px 2px;
-    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 4px 2px;
+    margin-left: 15px;
     box-sizing:border-box;
     border: none;
     border-radius: 15px;
@@ -48,6 +50,14 @@ input[type=submit]{
 }
 
 select{
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: beige;
+    color: black;
 
 }
 
@@ -55,7 +65,17 @@ select{
     background-color: beige;
     border-style: hidden;
     border-radius: 15px;
-    padding: 20px;
+    padding: 18px;
     text-align: center;
-    box-shadow: 0 10px -6px black;
+    box-shadow: 0 8px -6px black;
 }
+
+@media screen and (max-width:900px){
+    .main-container{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+}  
