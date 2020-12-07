@@ -6,13 +6,56 @@ h1{
     font-size: 35px;
 }
 
-input{
+input[type=text]{
     width: 30%;
     padding: 15px 20px;
     margin: 8px 0;
     box-sizing:border-box;
     border: none;
     border-radius: 15px;
-    
+    background-color: beige;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 
+}
+
+input[type=password]{
+    width: 30%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing:border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: beige;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+input[type=submit]{
+    background-color: beige;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 5px 2px;
+    margin-left: 20px;
+    box-sizing:border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: beige;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+select{
+
+}
+
+.container{
+    background-color: beige;
+    border-style: hidden;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px -6px black;
 }
