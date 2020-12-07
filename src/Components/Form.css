@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(153, 161, 36);
+    background-color:rgb(194, 207, 8);
 }
 
 h1{
@@ -7,9 +7,10 @@ h1{
 }
 
 input[type=text]{
-    width: 30%;
+    width: 25%;
     padding: 12px 20px;
     margin: 8px 0;
+    outline: none;
     box-sizing:border-box;
     border: none;
     border-radius: 15px;
@@ -20,11 +21,12 @@ input[type=text]{
 }
 
 input[type=password]{
-    width: 30%;
+    width: 25%;
     padding: 12px 20px;
-    margin: 6px 0px;
+    margin: 8px 0px;
     box-sizing:border-box;
     border: none;
+    outline: none;
     border-radius: 15px;
     background-color: beige;
     color: black;
@@ -42,6 +44,7 @@ input[type=submit]{
     margin-left: 15px;
     box-sizing:border-box;
     border: none;
+    outline: none;
     border-radius: 15px;
     background-color: beige;
     color: black;
@@ -53,8 +56,10 @@ select{
     width: 20%;
     padding: 12px 20px;
     margin: 8px 0px;
+    margin-right: 60px;
     box-sizing: border-box;
     border: none;
+    outline: none;
     border-radius: 15px;
     background-color: beige;
     color: black;

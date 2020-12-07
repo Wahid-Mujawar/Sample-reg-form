@@ -17,35 +17,35 @@ class Form extends Component {
     }
 
     firsthandler = (event) => {
-        this.state({
+        this.setState({
             firstname: event.target.value
 
         })
     }
 
     lastthandler = (event) => {
-        this.state({
+        this.setState({
             lastname: event.target.value
 
         })
     }
 
     passwordhandler = (event) => {
-        this.state({
+        this.setState({
             password: event.target.value
 
         })
-    }
+    };
 
     genderthandler = (event) => {
-        this.state({
+        this.setState({
             gender: event.target.value
 
         })
     }
 
     handleSubmit = event => {
-        alert('$(this.state.firstname) $(this.state.lastname) Registered Successfully')
+        alert('${firstname} $ {lastname} Registered Successfully')
         console.log(this.state);
         this.setState ({
             firstname:"",
@@ -63,19 +63,22 @@ class Form extends Component {
 
                 <form onSubmit={this.handleSubmit}>
                 <h1>User Registration</h1>
-                <label>First Name: </label><input type="text" value={this.state.firstname} onChange={this.firstname} placeholder="First Name"></input>
+                <label>First Name: </label><input type="text" value={this.state.firstname} onChange={this.firsthandler} placeholder="First Name"></input>
                 <br/>
-                <label>Last Name: </label><input type="text" value={this.state.lastname} onChange={this.lastname} placeholder="Last Name"></input>
+                <label>Last Name: </label><input type="text" value={this.state.lastname} onChange={this.lastthandler} placeholder="Last Name"></input>
                 <br/>
-                <label>Password: </label><input type="text" value={this.state.password} onChange={this.password} placeholder="Password"></input>
+                <label>Password: </label><input type="password" value={this.state.password} onChange={this.passwordhandler} placeholder="Password"></input>
                 <br/>
                 <label>Gender: </label><select onChange={this.genderhandler} defaultValue="Select Gender">
                 <br/>
                 <option defaultValue>Select Gender</option>
+                <br/>
                 <option value = "male">Male</option>
                 <option value = "female">Female</option>
                 </select>
+                <br/>
                 <input type="Submit" value ="Submit"></input>
+                <br/>
     
             </form>
             </div>
