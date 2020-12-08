@@ -23,10 +23,9 @@ input[type=text]{
 input[type=num]{
     width: 20%;
     padding: 12px 20px;
-    margin-right: 39px;
+    margin-right: 40px;
     margin: 8px 0;
     outline: none;
-    box-sizing:border-box;
     border: none;
     border-radius: 15px;
     background-color: beige;
