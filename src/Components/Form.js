@@ -81,7 +81,7 @@ class Form extends Component {
                 <br/>
                 <label>Gender: </label><select onChange={this.genderhandler} defaultValue="Select Gender">
                 <br/>
-                {/* <option defaultValue>Select Gender</option> */}
+                <option defaultValue>Select Gender</option>
                 <br/>
                 {/* <option value = "male">Male</option> */}
                 <option value = "female">Female</option>
