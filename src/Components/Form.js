@@ -87,7 +87,7 @@ class Form extends Component {
                 <option value = "female">Female</option>
                 </select>
                 <br/>
-                <input type="Submit" value ="Submit"></input>
+                {/* <input type="Submit" value ="Submit"></input> */}
                 <br/>
     
             </form>
