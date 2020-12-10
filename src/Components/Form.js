@@ -83,7 +83,7 @@ class Form extends Component {
                 <br/>
                 <option defaultValue>Select Gender</option>
                 <br/>
-                {/* <option value = "male">Male</option> */}
+                <option value = "male">Male</option>
                 <option value = "female">Female</option>
                 </select>
                 <br/>
